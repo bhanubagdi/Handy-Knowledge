@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.knowledge.handyknowledge"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <supports-screens
+     android:smallScreens="true"
+     android:normalScreens="true"
+     android:largeScreens="true"
+     android:anyDensity="true"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.knowledge.handyknowledge.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.knowledge.handyknowledge.CopyAndOpen" ></activity>
+        <activity android:name="com.knowledge.handyknowledge.First" ></activity>  
+        <activity android:name="com.knowledge.handyknowledge.Fourth" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Second" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Third" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Years" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem1Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem2Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem3Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem4Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem5Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem6Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem7Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.Sem8Sub" ></activity> 
+        <activity android:name="com.knowledge.handyknowledge.CopyAndInstallApp" ></activity>
+        <activity android:name="com.knowledge.handyknowledge.Search" ></activity>
+        <activity android:name="com.knowledge.handyknowledge.Selection" ></activity>
+    </application>
+
+</manifest>
